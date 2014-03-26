@@ -1,5 +1,4 @@
-# Default is "World"
-# Author: Jim Weirich (jim@somewhere.com)
+puts "What's your name"
+my_name = gets.strip
 
-name = ARGV.first || "World"
-puts "Hello, #{ARGV.first}!"
+puts "Hello, #{my_name}!"
